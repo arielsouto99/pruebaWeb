@@ -1,0 +1,16 @@
+git init (crear repositorio)
+git status (significa que tiene un directorio de trabajo limpio; en otras palabras, ninguno de sus archivos rastreados se modifica. )
+git add ( agregarlo al stagement index) (si despues del add le agrego un "." es para todos)
+git log --oneline (Mostrar todos mis commit)
+git commit -m "Descripcion de 50 caracteres" (agrego el commit)
+git diff (Diferencia entre nuestro commit pasado y el de ahora) 96de2cc index.html (escribir asi)
+git diff HEAD (Diferencia en el head)
+git checkout (nos permite regresar a versiones pasadas, ojo porque se borran) 
+git checkout -b nombre de la rama (cambiar entre ramas)
+git branch -d nombre (eliminar rama)
+git merge (Juntar ramas)
+
+VINCULANDO GIT Y GITHUB
+git remote add origin https://github.com/arielsouto99/pruebaWeb.git (Creando archivo remoto)
+git push -u origin master (subir nuestros archivos desde nuestra rama master)
+git pull origin master (Descargar todos los cambios de la página a la computadora)
